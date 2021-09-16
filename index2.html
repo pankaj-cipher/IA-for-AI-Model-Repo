@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+<body style = "background: #000;">
+<h1>Listening</h1>
+<form action = "{{ url_for('predict') }}" method = "post">
+<button type = 'submit' class = btn btn-primary btn-block btn-large> Let's START </button>
+</form>
+
+<br>
+<br>
+{{ prediction_text }}
+</body>
+</html>
